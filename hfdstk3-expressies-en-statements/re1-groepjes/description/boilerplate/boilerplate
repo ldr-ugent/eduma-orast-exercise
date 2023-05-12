@@ -1,6 +1,6 @@
 public class Groepjes  {
 
-    public double berekenNieuwZakgeld(double oudZakgeld, double procentExtra) {
+    public int berekenHoeveelLeerlingenOver(int aantalLeerlingen, int leerlingenPerGroepje) {
         return ????;
     }
 
