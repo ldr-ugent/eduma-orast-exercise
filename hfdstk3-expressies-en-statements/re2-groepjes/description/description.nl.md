@@ -2,7 +2,7 @@
 
 Je krijgt een groepsopdracht en de klas wordt verdeeld in groepjes!
 
-Helaas is het niet altijd zo dat als je de klas in groepjes van bijvoorbeeld 3 verdeeld, dat er in elk groepje drie leerlingen zitten. We willen berekenen hoeveel leerlingen er over bijven als je groepjes van een gelijk aantal leerlingen samensteld.
+Helaas is het niet altijd zo dat als je de klas in groepjes van bijvoorbeeld 3 verdeeld, dat er in elk groepje drie leerlingen zitten. We willen berekenen hoeveel leerlingen er over bijven als je groepjes van een gelijk aantal leerlingen samenstelt.
 
 Vul de methode `int berekenHoeveelLeerlingenOver(int aantalLeerlingen, int leerlingenPerGroepje)` aan zodat deze het aantal leerlingen teruggeeft dat overblijft. De methode krijgt volgende parameters mee:
 - `aantalLeerlingen` : het aantal leerlingen in de klase
