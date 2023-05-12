@@ -8,6 +8,13 @@ Vul de methode `double berekenNieuwZakgeld(double oudZakgeld, double procentExtr
 
 Vul de expressie op de plaats van de vraagtekens in.
 
+<br>
+
+_Ga met je muis over de tips om ze te bekijken. Tijdens een toets of het examen krijg je geen tips, dus weersta aan de verleiding om alle tips te openen zonder zelf eerst eens te proberen._
+
+<br>
+
+
 <p class="spoiler">
 15% = 15.0 / 100.0 
 </p>

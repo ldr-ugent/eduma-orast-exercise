@@ -10,10 +10,11 @@ Vul de methode `int berekenHoeveelLeerlingenOver(int aantalLeerlingen, int leerl
 
 Vul de expressie op de plaats van de vraagtekens in.
 
+<br>
 
-<p class="spoiler">
-Tijdens een toets of het examen krijg je geen tips, dus weersta aan de verleiding om alle tips te openen zonder zelf eerst eens te proberen.
-</p>
+_Ga met je muis over de tips om ze te bekijken. Tijdens een toets of het examen krijg je geen tips, dus weersta aan de verleiding om alle tips te openen zonder zelf eerst eens te proberen._
+
+<br>
 
 <p class="spoiler">
 We werken met integers.

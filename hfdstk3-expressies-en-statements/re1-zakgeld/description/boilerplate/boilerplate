@@ -1,6 +1,7 @@
 public class Zakgeld  {
 
-    public double berekenNieuwZakgeld(double oudZakgeld, double procentExtra) {
+    public double berekenNieuwZakgeld(double oudZakgeld, double procentExtra)
+    {
         return ????;
     }
 

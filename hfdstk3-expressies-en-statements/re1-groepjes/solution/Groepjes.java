@@ -1,7 +1,0 @@
-public class Groepjes  {
-
-    public int berekenHoeveelLeerlingenOver(int aantalLeerlingen, int leerlingenPerGroepje) {
-        return aantalLeerlingen % leerlingenPerGroepje;
-    }
-
-}
