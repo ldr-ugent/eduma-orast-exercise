@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class ZakgeldTest {
 
-    private ZakgeldEenvoudig solution;
+    private Zakgeld solution;
         
     @Test
     public void test10Procent() 
