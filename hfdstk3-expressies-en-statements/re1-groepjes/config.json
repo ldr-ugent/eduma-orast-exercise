@@ -7,5 +7,9 @@
   "evaluation": {
     "filename": "Groepjes.java",
     "handler": "java"
+  },
+  "internals": {
+    "token": "k4mZX7yjifH8her4kwneMBpGtUiCw_T47XfGCDsaz4HWKxa36f7SSTX8gvYIG8Ra",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
