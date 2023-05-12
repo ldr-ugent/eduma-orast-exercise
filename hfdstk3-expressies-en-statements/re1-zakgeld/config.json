@@ -1,12 +1,11 @@
 {
   "description": {
     "names": {
-      "nl": "Simpel voorbeeld",
-      "en": "Simple example"
+      "nl": "Rekenkundige expressies - zakgeld"
     }
   },
   "evaluation": {
-    "filename": "Simple.java",
+    "filename": "Zakgeld.java",
     "handler": "java"
   }
 }
