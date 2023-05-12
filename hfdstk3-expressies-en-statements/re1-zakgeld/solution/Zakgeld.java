@@ -1,4 +1,4 @@
-public class Zakgeld  {
+public class ZakgeldEenvoudig  {
 
     public double berekenNieuwZakgeld(double oudZakgeld, double procentExtra) 
     {
