@@ -1,0 +1,7 @@
+public class Groepjes  {
+
+    public double berekenNieuwZakgeld(double oudZakgeld, double procentExtra) {
+        return ????;
+    }
+
+}

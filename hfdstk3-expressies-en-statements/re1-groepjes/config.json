@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Rekenkundige expressies - groepjes"
+    }
+  },
+  "evaluation": {
+    "filename": "Groepjes.java",
+    "handler": "java"
+  }
+}
