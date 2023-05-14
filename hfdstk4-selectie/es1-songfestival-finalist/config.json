@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Enkelvoudige selectie - songfestival finale"
+    }
+  },
+  "evaluation": {
+    "filename": "EurovisieSongfestivalPuntenTelling.java",
+    "handler": "java"
+  }
+}

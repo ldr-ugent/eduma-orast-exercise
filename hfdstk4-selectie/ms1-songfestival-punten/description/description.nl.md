@@ -15,7 +15,7 @@ Op het Eurovisie songfestival mag een land aan 10 andere landen punten geven. De
 | 10 | 1 |
 
 Vul de methode `int plaatsNaarPunten(int plaats)` aan zodat deze het aantal punten teruggeeft die overeenkomt met de plaats. De methode krijgt volgende parameters mee:
-- `plaats` : de plaats van het land bij de toekenning van punten
+- `plaats` : de plaats van het land bij de toekenning van punten. Dit is altijd een getal tussen 1 en 10 (1 en 10 inbegrepen).
 
 Vul de code op de plaats van de vraagtekens in.
 

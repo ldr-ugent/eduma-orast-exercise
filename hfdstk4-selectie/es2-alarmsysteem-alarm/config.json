@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Enkelvoudige selectie - alarmsysteem"
+    }
+  },
+  "evaluation": {
+    "filename": "Alarmsysteem.java",
+    "handler": "java"
+  }
+}

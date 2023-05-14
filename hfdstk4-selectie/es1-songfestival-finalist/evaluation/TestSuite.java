@@ -5,6 +5,6 @@ import org.junit.runner.RunWith;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
     // List of tests to run.
-    ZakgeldTest.class
+    EurovisieSongfestivalPuntenTellingTest.class
 })
 public class TestSuite {}
