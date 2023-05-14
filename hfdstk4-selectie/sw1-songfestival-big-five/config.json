@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Meervoudige selectie - songfestival 'Big Five'"
+    }
+  },
+  "evaluation": {
+    "filename": "EurovisieSongfestivalPuntenTelling.java",
+    "handler": "java"
+  }
+}

@@ -1,0 +1,16 @@
+public class EurovisieSongfestivalPuntenTelling  
+{
+
+    public boolean isEenBigFiveLand(String land)
+    {
+        boolean isBigFive;
+
+        switch (???) 
+        {
+            ???
+        }
+
+        return isBigFive;
+    }
+
+}
