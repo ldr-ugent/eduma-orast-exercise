@@ -7,5 +7,9 @@
   "evaluation": {
     "filename": "Alarmsysteem.java",
     "handler": "java"
+  },
+  "internals": {
+    "token": "Yc6pbjirTAxG3TS_NPf-tvhz-mrS6u2-JK5f7rZMVQs2CZC6vQKk_PBxiEy732PM",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
