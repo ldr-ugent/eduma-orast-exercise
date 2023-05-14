@@ -1,0 +1,13 @@
+public class EurovisieSongfestivalPuntenTelling  
+{
+
+    public int plaatsNaarPunten(int plaats)
+    {
+        int punten;
+
+        ????
+
+        return punten;
+    }
+
+}
