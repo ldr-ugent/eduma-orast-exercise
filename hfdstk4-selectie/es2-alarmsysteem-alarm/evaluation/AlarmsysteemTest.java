@@ -45,7 +45,7 @@ public class AlarmsysteemTest
     public void testAfstandKleinerEnGrootteGelijk() 
     {
         Alarmsysteem solution = new Alarmsysteem();
-        Assert.assertFalse("Het alarm mag niet afgaan voor een object met afstand 400 cm en grootte 100 cm", solution.moetAfgaanNaBeweging(400, 100));
+        Assert.assertTrue("Het alarm moet afgaan voor een object met afstand 400 cm en grootte 100 cm", solution.moetAfgaanNaBeweging(400, 100));
     }
 
       
