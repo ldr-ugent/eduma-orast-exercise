@@ -7,5 +7,13 @@
   "evaluation": {
     "filename": "EurovisieSongfestivalPuntenTelling.java",
     "handler": "java"
-  }
+  },
+  "access": "public",
+  "internals": {
+    "token": "yFwDdfdACckPwGp5dX4x3eNj2thC-TB8A24_Ef2QX6Drye-hhNy-V7HMsFnsSABa",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "labels": [
+
+  ]
 }
