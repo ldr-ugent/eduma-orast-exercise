@@ -1,19 +1,11 @@
 {
   "description": {
     "names": {
-      "nl": "Booleaanse expressies - mag ik dit kopen"
+      "nl": "Meervoudige selectie - songfestival punten"
     }
   },
   "evaluation": {
-    "filename": "Zakgeld.java",
+    "filename": "EurovisieSongfestivalPuntenTelling.java",
     "handler": "java"
-  },
-  "access": "public",
-  "internals": {
-    "token": "XdCjvMF8ggqHm7j6mFG-FwTZ-rhzZj-IDdKwSM_hugRBkZ2fjRRIBVjIGHC7ue2j",
-    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
-  },
-  "labels": [
-
-  ]
+  }
 }
