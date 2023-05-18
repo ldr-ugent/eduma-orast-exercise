@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Typecasting & parsing - bibliotheek"
+    }
+  },
+  "evaluation": {
+    "filename": "Bibliotheek.java",
+    "handler": "java"
+  }
+}
