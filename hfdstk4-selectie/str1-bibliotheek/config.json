@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Objecttype String - bibliotheek"
+    }
+  },
+  "evaluation": {
+    "filename": "Bibliotheek.java",
+    "handler": "java"
+  }
+}

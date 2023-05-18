@@ -1,0 +1,13 @@
+public class Bibliotheek  
+{
+
+    public String geefCodeVoorBoek(String auteur)
+    {
+        String code;
+        
+        ???
+
+        return code;
+    }
+
+}
