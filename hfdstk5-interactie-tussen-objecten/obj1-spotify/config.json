@@ -1,0 +1,11 @@
+{
+  "description": {
+    "names": {
+      "nl": "Interactie tussen objecten - spotify"
+    }
+  },
+  "evaluation": {
+    "filename": "Spotify.java",
+    "handler": "java"
+  }
+}

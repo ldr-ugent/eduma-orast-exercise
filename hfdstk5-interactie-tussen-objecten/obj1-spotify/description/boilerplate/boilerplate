@@ -1,0 +1,13 @@
+public class Bibliotheek  
+{
+
+    public int geefJaarVanDruk(String drukVermelding)
+    {
+        int jaar;
+        
+        ???
+
+        return jaar;
+    }
+
+}
