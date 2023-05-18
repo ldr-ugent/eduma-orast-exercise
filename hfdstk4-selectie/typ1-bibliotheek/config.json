@@ -7,5 +7,9 @@
   "evaluation": {
     "filename": "Bibliotheek.java",
     "handler": "java"
+  },
+  "internals": {
+    "token": "Ad2Q2refBf8WSgPBHkH_E-eZQrrzNJYCN_MZwdVif3ShD477YhZwRBXEGInx5QUz",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
