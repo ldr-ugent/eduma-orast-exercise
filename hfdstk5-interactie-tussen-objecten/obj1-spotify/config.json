@@ -7,5 +7,13 @@
   "evaluation": {
     "filename": "Spotify.java",
     "handler": "java"
-  }
+  },
+  "internals": {
+    "token": "hw8xjjZRevqTD_Kc2V-z6UzQCBTPTh9sP6Kzsy3VMnczkMxdDEuT-9uKEPBddQsg",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  },
+  "access": "private",
+  "labels": [
+
+  ]
 }
