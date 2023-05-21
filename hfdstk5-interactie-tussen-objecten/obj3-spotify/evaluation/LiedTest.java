@@ -31,8 +31,8 @@ public class LiedTest
     public void testSetComponist() {
         var lied = new Lied("As it Was");
         lied.setComponist(new Persoon("Thomas", "Hull"));
-        Assert.assertEquals("Thomas", lied.getUitvoerder().getVoornaam());
-        Assert.assertEquals("Hull", lied.getUitvoerder().getAchternaam());
+        Assert.assertEquals("Thomas", lied.getComponist().getVoornaam());
+        Assert.assertEquals("Hull", lied.getComponist().getAchternaam());
     }
 
     @Test

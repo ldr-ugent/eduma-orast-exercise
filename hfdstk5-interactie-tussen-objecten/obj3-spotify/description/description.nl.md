@@ -4,7 +4,7 @@
 
 In deze reeks oefeningen zullen we enkele klassen ontwerpen en programmeren die gaan over liedjes, uitvoerders en muziekgenres zoals je die kent uit een muziekapp zoals Spotify, Apple Music, Google Music, enz ...
 
-Vul de klasse `Lied` aan op de plaats van de vraagtekens. De functie `getInfo()` moet een String teruggeven in de vorm `"<naam lied>, uitvoerder <naam uitvoeder>, componist <naam componist>"`.
+Vul de klasse `Lied` aan op de plaats van de vraagtekens. De functie `getInfo()` moet een String teruggeven in de vorm `"<naam lied>, uitvoerder <naam uitvoerder>, componist <naam componist>"`.
 
 Je gebruikt de klasse `Persoon` uit de vorige oefening. Deze hoef je niet nog eens te schrijven. Hieronder nog eens het klassendiagram.
 
