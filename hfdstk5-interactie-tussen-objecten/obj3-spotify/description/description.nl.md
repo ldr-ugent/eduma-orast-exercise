@@ -1,31 +1,29 @@
 # Instructies
 
-## Persoon
+## Lied
 
 In deze reeks oefeningen zullen we enkele klassen ontwerpen en programmeren die gaan over liedjes, uitvoerders en muziekgenres zoals je die kent uit een muziekapp zoals Spotify, Apple Music, Google Music, enz ...
 
-Schrijf een klasse die overeenkomt met onderstaand klassendiagram. We zullen deze klasse in een volgende oefening gebruiken.
+Vul de klasse `Lied` aan op de plaats van de vraagtekens. De functie `getInfo()` moet een String teruggeven in de vorm `"<naam lied>, uitvoerder <naam uitvoeder>, componist <naam componist>"`.
 
-![klasdiagram](media/classDiagram.png)
+Je gebruikt de klasse `Persoon` uit de vorige oefening. Deze hoef je niet nog eens te schrijven. Hieronder nog eens het klassendiagram.
 
-Vul de code aan zodat deze overeenkomt met de het klassendiagram hierboven. De functie `getNaam()` met de naam teruggeven in de vorm `"<voornaam><spatie><achternaam>"` (zonder quotes). Dus bijv. `"Miley Cyrus"`.
+![](media/classDiagram.png)
 
 <br>
-
 _Ga met je muis over de tips om ze te bekijken. Tijdens een toets of het examen krijg je geen tips, dus weersta aan de verleiding om alle tips te openen zonder zelf eerst eens te proberen._
 
 <br>
 
+<p class="spoiler">
+In de method `setUitvoerderViaNaam` zal je een nieuw object van de klasse <code>Persoon</code> moeten maken.</p>
 
 <p class="spoiler">
-Geen tips :-(
+Gebruik hiervoor het sleutelwoord <code>new</code> en de constructor. Kijk in je boek als je niet meer juist weet hoe dit moet.
 </p>
 
 <p class="spoiler">
-Of toch ;-)<br>
-Je dient de klasse helemaal zelf te schrijven.<br>
-Let op dat je exact dezelfde namen gebruikt als in het klassendiagram.<br>
-Dus ook qua hoofdletters en kleine letters.
+De naam van een persoon krijg je terug via de functie <code>getNaam()</code>.
 </p>
 
 <style>

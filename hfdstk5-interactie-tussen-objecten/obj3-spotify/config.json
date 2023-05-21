@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Interactie tussen objecten - Lied"
+    }
+  },
+  "evaluation": {
+    "filename": "Lied.java",
+    "handler": "java"
+  },
+  "access": "public",
+  "labels": [
+
+  ]
+}
