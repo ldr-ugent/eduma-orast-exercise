@@ -2,7 +2,7 @@
 
 ## Spotify
 
-In deze reeks oefeningen zullen we enkele klassen ontwerpen en programmeren waarmee die gaan over liedjes, uitvoerders en muziekgenres zoals je die kent uit een muziekapp zoals Spotify, Apple Music, Google Music, enz ...
+In deze reeks oefeningen zullen we enkele klassen ontwerpen en programmeren die gaan over liedjes, uitvoerders en muziekgenres zoals je die kent uit een muziekapp zoals Spotify, Apple Music, Google Music, enz ...
 
 We beginnen met de klasse ´MuziekGenre´. Het klassendiagram vind je hieronder:
 
