@@ -1,0 +1,15 @@
+{
+  "description": {
+    "names": {
+      "nl": "Interactie tussen objecten - Persoon"
+    }
+  },
+  "evaluation": {
+    "filename": "Persoon.java",
+    "handler": "java"
+  },
+  "access": "public",
+  "labels": [
+
+  ]
+}

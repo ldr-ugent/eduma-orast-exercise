@@ -16,7 +16,7 @@ De code die je krijgt bevat nog geen functionaliteit betreffende de <i>[Beats Pe
 | Pop | 100 | 130 |
 | Meta | 100 | 160 |
 
-Vul de code aan zodat deze overeenkomt met de het klassendiagrm hierboven.
+Vul de code aan zodat deze overeenkomt met de het klassendiagram hierboven.
 
 <br>
 
