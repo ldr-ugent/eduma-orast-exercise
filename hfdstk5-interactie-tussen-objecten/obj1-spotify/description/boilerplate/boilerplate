@@ -1,13 +1,15 @@
-public class Bibliotheek  
+public class MuziekGenre  
 {
+    private String naam;
 
-    public int geefJaarVanDruk(String drukVermelding)
+    public MuziekGenre(String naam)
     {
-        int jaar;
-        
-        ???
+        this.naam = naam;
+    }
 
-        return jaar;
+    public String getNaam()
+    {
+        return this.naam;
     }
 
 }

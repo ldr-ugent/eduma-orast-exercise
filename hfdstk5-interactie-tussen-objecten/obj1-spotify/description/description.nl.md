@@ -2,40 +2,21 @@
 
 ## Spotify
 
-In een boek staat meestal vermeld in welk jaar het gedrukt is. Een voorbeeld zie je hieronder.
+In deze reeks oefeningen zullen we enkele klassen ontwerpen en programmeren waarmee die gaan over liedjes, uitvoerders en muziekgenres zoals je die kent uit een muziekapp zoals Spotify, Apple Music, Google Music, enz ...
 
-```mermaid
-classDiagram
-    Animal <|-- Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-      +String beakColor
-      +swim()
-      +quack()
-    }
-    class Fish{
-      -int sizeInFeet
-      -canEat()
-    }
-    class Zebra{
-      +bool is_wild
-      +run()
-    }
-```
+We beginnen met de klasse ´MuziekGenre´. Het klassendiagram vind je hieronder:
 
+![klasdiagram](media/classDiagram.png)
 
-Vul de methode `int geefJaarVanDruk(String drukVermelding)` aan zodat deze het jaar teruggeeft waarin het boek gedrukt werd. Volgende parameters worden meegegeven:
-- `drukVermelding` : een `String` met de drukvermelding. Bijv. 'Vierde druk: 2020' Je mag er van uitgaan dat de laatste 4 karakters van de string het jaar bevatten.
+De code die je krijgt bevat nog geen functionaliteit betreffende de <i>[Beats Per Minute (BPM)](https://nl.wikipedia.org/wiki/Beats_per_minute)</i> (Klik op de link als je dit niet kent). Een muziekgenre wordt onder andere gekenmerkd door onder het aantal BPM. Dit zie je in de tabel hieronder:
 
-Vul de code op de plaats van de vraagtekens in.
+| MuziekGenre | Minimum BPM | Maximum BPM |
+|-------------|-------------|-------------|
+| Reggae | 60 | 90 |
+| Pop | 100 | 130 |
+| Meta | 100 | 160 |
 
-
-
+Vul de code aan zodat deze overeenkomt met de het klassendiagrm hierboven.
 
 <br>
 
@@ -45,15 +26,11 @@ _Ga met je muis over de tips om ze te bekijken. Tijdens een toets of het examen 
 
 
 <p class="spoiler">
-Met de functie <code>substring</code> haal je een deel uit een <code>String</code>.
+De functie <code>IsCorrectBPM</code> moet <code>true</code> teruggeven indien de meegegeven bpm binnen de minimum en maximum BPM van het muziekgenre ligt (grenzen inbegrepen).
 </p>
 
 <p class="spoiler">
-De functie <code>length</code> geeft je de lengte van de string terug.
-</p>
-
-<p class="spoiler">
-Je zult een <code>String</code> moeten omzetten naar een getal. Kijk in je boek hoe dit moet.
+De constructor moet dus uitgebreid worden.
 </p>
 
 <style>
