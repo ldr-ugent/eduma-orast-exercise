@@ -8,7 +8,7 @@ Schrijf een klasse die overeenkomt met onderstaand klassendiagram. We zullen dez
 
 ![klasdiagram](media/classDiagram.png)
 
-Vul de code aan zodat deze overeenkomt met de het klassendiagram hierboven. De functie `getNaam()` met de naam teruggeven in de vorm `"<voornaam><spatie><achternaam>"` (zonder quotes). Dus bijv. `"Miley Cyrus"`.
+Vul de code aan zodat deze overeenkomt met de het klassendiagram hierboven. De functie `getNaam()` moet de naam teruggeven in de vorm `"<voornaam><spatie><achternaam>"` (zonder quotes). Dus bijv. `"Miley Cyrus"`.
 
 <br>
 
