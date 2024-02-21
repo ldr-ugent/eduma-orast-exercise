@@ -5,8 +5,8 @@ public class Voertuig
 
     public Voertuig(String merk, String kleur)
     {
-        this.merk = merk;
-        this.kleur = kleur;
+        this.merk = "BASE" + merk;
+        this.kleur = "BASE" + kleur;
     }
 
     public String getMerk()

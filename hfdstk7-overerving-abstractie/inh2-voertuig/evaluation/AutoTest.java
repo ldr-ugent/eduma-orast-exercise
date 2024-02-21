@@ -17,14 +17,14 @@ public class AutoTest
     @Test
     public void testMerk() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertEquals("Volvo", auto.getMerk());
+        Assert.assertEquals("BASEVolvo", auto.getMerk());
         
     }
 
     @Test
     public void testKleur() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertEquals("Groen", auto.getKleur());
+        Assert.assertEquals("BASEGroen", auto.getKleur());
     }
 
     @Test
