@@ -24,13 +24,13 @@ public class AutoTest
 
     @Test
     public void testGeenKleurAccessorMethod() {
-        Assert.assertTrue("De klasse mag geen method 'getKleur' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasMethod(Auto.class, "getKleur"));
+        Assert.assertTrue("De klasse mag geen methode 'getKleur' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasMethod(Auto.class, "getKleur"));
         
     }
 
     @Test
     public void testGeenMerkAccessorMethod() {
-        Assert.assertTrue("De klasse mag geen method 'getMerk' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasMethod(Auto.class, "getMerk"));
+        Assert.assertTrue("De klasse mag geen methode 'getMerk' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasMethod(Auto.class, "getMerk"));
         
     }
 
@@ -56,7 +56,13 @@ public class AutoTest
     @Test
     public void testOpenDak() {
         var auto = new Auto("Volvo", "Groen");
-        auto.getHeeftOpenDak();
+        Assert.assertTrue("De klasse moet een veld 'heeftOpenDak' hebben omdat de klasse 'Voertuig' dit niet heeft.", !hasField(Auto.class, "heeftOpenDak"));
+    }
+
+    @Test
+    public void testgetOpenDak() {
+        var auto = new Auto("Volvo", "Groen");
+        Assert.assertTrue("De klasse moet een methode 'getHeeftOpenDak' hebben omdat de klasse 'Voertuig' dit niet heeft.", !hasMethod(Auto.class, "getHeeftOpenDak"));
     }
 
 
