@@ -23,6 +23,18 @@ public class AutoTest
     }
 
     @Test
+    public void testGeenKleurAccessorMethod() {
+        Assert.assertTrue("De klasse mag geen method 'getKleur' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasMethod(Auto.class, "getKleur"));
+        
+    }
+
+    @Test
+    public void testGeenMerkAccessorMethod() {
+        Assert.assertTrue("De klasse mag geen method 'getMerk' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasMethod(Auto.class, "getMerk"));
+        
+    }
+
+    @Test
     public void testOvererving() {
         var auto = new Auto("Volvo", "Groen");
         Assert.assertTrue("Auto moet overerven van Voertuig", isDerivedFrom(Auto.class, Voertuig.class));
