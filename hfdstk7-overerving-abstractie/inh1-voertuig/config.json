@@ -5,7 +5,7 @@
     }
   },
   "evaluation": {
-    "filename": "Voertuig.java.java",
+    "filename": "Voertuig.java",
     "handler": "java"
   },
   "internals": {
