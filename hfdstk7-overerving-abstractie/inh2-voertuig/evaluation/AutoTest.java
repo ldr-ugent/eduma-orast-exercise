@@ -56,13 +56,13 @@ public class AutoTest
     @Test
     public void testOpenDak() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertTrue("De klasse moet een veld 'heeftOpenDak' hebben omdat de klasse 'Voertuig' dit niet heeft.", !hasField(Auto.class, "heeftOpenDak"));
+        Assert.assertTrue("De klasse moet een veld 'heeftOpenDak' hebben omdat de klasse 'Voertuig' dit niet heeft.", hasField(Auto.class, "heeftOpenDak"));
     }
 
     @Test
     public void testgetOpenDak() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertTrue("De klasse moet een methode 'getHeeftOpenDak' hebben omdat de klasse 'Voertuig' dit niet heeft.", !hasMethod(Auto.class, "getHeeftOpenDak"));
+        Assert.assertTrue("De klasse moet een methode 'getHeeftOpenDak' hebben omdat de klasse 'Voertuig' dit niet heeft.", hasMethod(Auto.class, "getHeeftOpenDak"));
     }
 
 
