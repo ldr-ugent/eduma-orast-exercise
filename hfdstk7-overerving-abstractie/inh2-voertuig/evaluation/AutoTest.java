@@ -17,14 +17,14 @@ public class AutoTest
     @Test
     public void testMerk() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertEquals("BASEVolvo", auto.getMerk());
+        Assert.assertEquals("Je moet het veld 'merk' en de methode 'getMerk' verwijderen uit de klasse 'Auto'.", "BASEVolvo", auto.getMerk());
         
     }
 
     @Test
     public void testKleur() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertEquals("BASEGroen", auto.getKleur());
+        Assert.assertEquals("Je moet het veld 'kleur' en de methode 'getKleur' verwijderen uit de klasse 'Auto'.", "BASEGroen", auto.getKleur());
     }
 
     @Test
