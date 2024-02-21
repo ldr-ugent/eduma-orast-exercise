@@ -4,7 +4,8 @@
 
 We gaan een programma herwerken zodat we gebruik maken van overerving. Het programma bevat twee klassen: Auto en Brommer. In onderstaand klassendiagram zie je de definitie van de twee klassen.
 
-![klasdiagram](media/classDiagram.png)
+<img src="media/classDiagram.png" alt="classDiagram" width="600"/>
+
 
 We zien dat de twee klassen gelijkaardige velden hebben.
 
