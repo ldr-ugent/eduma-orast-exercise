@@ -3,8 +3,7 @@
 ## Auto, Brommer en Voertuig
 
 
-![klasdiagram](media/classDiagram.png =250x)
-
+<img src="media/classDiagram.png" alt="classDiagram" width="600"/>
 
 **Je opdracht:**
 <br>
