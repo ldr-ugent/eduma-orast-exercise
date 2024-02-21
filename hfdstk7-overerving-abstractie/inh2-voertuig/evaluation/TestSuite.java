@@ -5,6 +5,6 @@ import org.junit.runner.RunWith;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
     // List of tests to run.
-    HerhalingTest.class
+    AutoTest.class
 })
 public class TestSuite {}

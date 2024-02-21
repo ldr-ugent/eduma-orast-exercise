@@ -1,0 +1,39 @@
+// Klasse Auto
+public class Auto 
+{
+    // velden
+    private String merk;
+    private String kleur;
+    private boolean heeftOpenDak; 
+
+    // Constructor
+    public Auto(String merk, String kleur)
+    {
+        // Initialiseer velden
+        this.merk = merk;
+        this.kleur = kleur;
+        this.heeftOpenDak = false;
+    }
+
+    // Accessor methode(n) (getter)
+    public String getMerk()
+    {
+        return this.merk;
+    }
+
+    public String getKleur()
+    {
+        return this.kleur;
+    }
+
+    public boolean getHeeftOpenDak()
+    {
+        return this.heeftOpenDak;
+    }
+
+    // Methoden
+    public void printInfo()
+    {
+        System.out.println("Voertuig, merk " + this.merk + ", kleur " + this.kleur + ", heeft open dak: " + heeftOpenDak);
+    }
+}

@@ -1,0 +1,20 @@
+// Onze klasse Voertuig zal dienen als superklasse voor Auto en Brommer
+public class Voertuig  
+{
+    // velden
+    private xxx;
+
+    // Constructor
+    public xxx(xxx)
+    {
+        // Initialiseer velden
+    }
+
+    // Accessor methode(n) (getter)
+    public String getxxx()
+    {
+        return xxx;
+    }
+
+    // Methoden
+}
