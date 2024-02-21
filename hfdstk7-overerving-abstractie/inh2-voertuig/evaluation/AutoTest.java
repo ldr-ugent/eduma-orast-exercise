@@ -1,11 +1,25 @@
 import org.junit.Assert;
 import org.junit.Test;
+import java.lang.reflect.*;
+
 
 public class AutoTest 
 {
     @Test
     public void testConstructor() {
         var auto = new Auto("Volvo", "Groen");
+    }
+
+    @Test
+    public void testGeenMerkVeld() {
+        Assert.False("De klasse mag geen veld 'merk' hebben omdat de klasse 'Voertuig' dit al heeft.", hasField(Auto.class, "merk"));
+        
+    }
+
+    @Test
+    public void testGeenKleurVeld() {
+        Assert.False("De klasse mag geen veld 'kleur' hebben omdat de klasse 'Voertuig' dit al heeft.", hasField(Auto.class, "kleur"));
+        
     }
 
     @Test
@@ -38,6 +52,28 @@ public class AutoTest
     public void testPrintInfo() {
         var auto = new Auto("Volvo", "Groen");
         auto.printInfo();
+    }
+
+    private static boolean hasField(Class cls, String name)
+    {
+        Field f[] = cls.getDeclaredFields();
+        for (Field fld : f) {
+            if (fld.getName().equals(name))
+                return true;
+        }
+
+        return false;
+    }
+
+    private static boolean hasMethod(Class cls, String name)
+    {
+        Method m[] = cls.getDeclaredMethods();
+        for (Method method : m) {
+            if (method.getName().equals(name))
+                return true;
+        }
+
+        return false;
     }
 
 }
