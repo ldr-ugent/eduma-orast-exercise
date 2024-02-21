@@ -12,13 +12,13 @@ public class AutoTest
 
     @Test
     public void testGeenMerkVeld() {
-        Assert.True("De klasse mag geen veld 'merk' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasField(Auto.class, "merk"));
+        Assert.assertTrue("De klasse mag geen veld 'merk' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasField(Auto.class, "merk"));
         
     }
 
     @Test
     public void testGeenKleurVeld() {
-        Assert.True("De klasse mag geen veld 'kleur' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasField(Auto.class, "kleur"));
+        Assert.assertTrue("De klasse mag geen veld 'kleur' hebben omdat de klasse 'Voertuig' dit al heeft.", !hasField(Auto.class, "kleur"));
         
     }
 
