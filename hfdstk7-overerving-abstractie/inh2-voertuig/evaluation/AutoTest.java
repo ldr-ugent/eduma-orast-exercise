@@ -25,7 +25,7 @@ public class AutoTest
     @Test
     public void testOvererving() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertTrue("Auto moet overerven van Voertuig", auto instanceof Voertuig);
+        Assert.assertTrue("Auto moet overerven van Voertuig", isDerivedFrom(Auto.class, Voertuig.class));
     }
 
     @Test
@@ -74,6 +74,11 @@ public class AutoTest
         }
 
         return false;
+    }
+    
+    private static boolean isDerivedFrom(Class subClass, Class superClass)
+    {
+        return subClass.getSuperclass().equals(superClass);
     }
 
 }
