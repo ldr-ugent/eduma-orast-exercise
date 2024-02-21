@@ -1,11 +1,11 @@
 {
   "description": {
     "names": {
-      "nl": "Herhaling"
+      "nl": "Overerving - superklasse"
     }
   },
   "evaluation": {
-    "filename": "Herhaling.java",
+    "filename": "Voertuig.java.java",
     "handler": "java"
   },
   "internals": {

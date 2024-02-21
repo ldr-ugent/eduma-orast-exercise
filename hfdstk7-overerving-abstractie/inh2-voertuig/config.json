@@ -1,11 +1,11 @@
 {
   "description": {
     "names": {
-      "nl": "Herhaling"
+      "nl": "Overerving - subklasse"
     }
   },
   "evaluation": {
-    "filename": "Herhaling.java",
+    "filename": "Auto.java",
     "handler": "java"
   },
   "internals": {
