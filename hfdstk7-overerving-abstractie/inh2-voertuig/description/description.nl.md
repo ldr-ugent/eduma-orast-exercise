@@ -3,7 +3,7 @@
 ## Auto, Brommer en Voertuig
 
 
-![klasdiagram](media/classDiagram.png)
+![klasdiagram](media/classDiagram.png =250x)
 
 
 **Je opdracht:**
