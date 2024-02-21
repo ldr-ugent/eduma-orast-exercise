@@ -11,7 +11,7 @@ public class AutoTest
     @Test
     public void testOvererving() {
         var auto = new Auto("Volvo", "Groen");
-        Assert.assertTrue(auto instanceof Voertuig, "Auto moet overerven van Voertuig");
+        Assert.assertTrue("Auto moet overerven van Voertuig", auto instanceof Voertuig);
     }
 
     @Test
