@@ -1,0 +1,28 @@
+// Klasse Fruitsap, erft van Drank
+public class Fruitsap ???
+{
+    // velden
+    private String fruitSoort;
+
+    // Constructor
+    public Fruitsap(String merk, String fruitSoort)
+    {
+        // Initialiseer superklasse
+        ???
+
+        // Initialiseer veld(en)
+        ???
+    }
+
+    // Accessor methode(n) (getter)
+    public String getFruitSoort()
+    {
+        return this.fruitSoort;
+    }
+
+    // getInfo methode
+    public String getInfo()
+    {
+        return "Fruitsap, merk : " + ??? + ", fruitsoort : " + ???;
+    }
+}

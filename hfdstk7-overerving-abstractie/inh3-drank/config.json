@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "nl": "Overerving - toets - 1"
+    }
+  },
+  "evaluation": {
+    "filename": "Fruitsap.java",
+    "handler": "java"
+  },
+  "access": "public",
+  "labels": [
+  ]
+}
