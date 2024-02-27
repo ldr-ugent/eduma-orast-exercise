@@ -8,7 +8,7 @@
     "filename": "Fruitsap.java",
     "handler": "java"
   },
-  "access": "public",
+  "access": "private",
   "labels": [
 
   ],
